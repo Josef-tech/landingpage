@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Exo2";
+    src: url("../idealhublandingpageall/fonts/Exo2Regular.ttf");
+}
+@font-face {
+    font-family: "Exo2bold";
+    src: url("../idealhublandingpageall/fonts/Exo2Bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Exo2italic";
+    src: url("../idealhublandingpageall/fonts/Exo2Italic.ttf");
+    font-style: italic;
+}
+@font-face {
+    font-family: "Exo2thin";
+    src: url("../idealhublandingpageall/fonts/Exo2Thin.ttf");
+    font-weight: 100;
+}
+@font-face {
+    font-family: "Exo2medium";
+    src: url("../idealhublandingpageall/fonts/Exo2Medium.ttf");
+    font-weight: 500;
+}
