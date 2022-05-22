@@ -271,34 +271,6 @@ html, body {
     
 }
 
-.features_feature {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width:400px;
-}
-
-
-.feature_image {
-    width: 67px;
-    height: 67px;
-    margin-bottom: 20px;
-
-}
-
-.feature_title {
-    margin-bottom: 10px;
-    font-weight: 500;
-}
-
-.feature_text {
-    text-align: center;
-    font-weight: 100;
-    color: rgb(120, 120, 120);
-    letter-spacing: 1px;
-}
-
 @media screen and (max-width:800px) {
     .features {
         background-image: none;
