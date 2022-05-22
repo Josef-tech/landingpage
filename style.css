@@ -27,10 +27,7 @@ html, body {
 
 .wrapper {
     max-width: 1440px;
-    height: 100%;
     width: 100%;
-    display: flex;
-
 }
 
 .header {     
@@ -41,7 +38,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    max-height: 800px;
     
 }
 
@@ -52,6 +49,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 
@@ -89,6 +87,7 @@ html, body {
     text-align: center;
     font-family: Exo2thin;
     font-weight: 100;
+    
 
 }
 
@@ -100,15 +99,6 @@ html, body {
     font-size:14px;
     color: rgb(120, 120, 120);
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -131,3 +121,112 @@ html, body {
 
 
 
+/* description block start */
+
+.description {
+    display: flex;
+    flex-direction: row;
+    max-width: 1440px;
+    width: 100%;
+    max-height: 800px;
+    justify-content: space-between;
+}
+
+
+
+.description_content {
+    display: flex;
+    justify-content: center;
+    width: 55%;
+    
+    
+    
+}
+
+
+
+.description_content_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 450px;
+    margin: 0 15px;
+}
+
+
+.description_subtitle {
+
+    margin-bottom:5px;
+    font-family: Exo2;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: rgb(255, 109, 109);
+    font-weight: 200;
+
+
+
+}
+
+
+.description_title {
+
+    margin-bottom: 30px;
+    font-family: Exo2;
+    font-size: 35px;
+    font-weight: 300;
+
+
+}
+
+.description_title span {
+    color:rgb(255, 109, 109);
+}
+
+
+
+
+
+.description_text {
+    font-family: Exo2;
+    font-size: 13px;
+    font-weight: 100;
+    color:rgb(120, 120, 120);
+    letter-spacing: 1px;
+}
+
+.description_text :first-child{
+    margin-bottom: 20px;
+}
+
+
+
+
+@media screen and (max-width:800px) {
+    .description_backgroundintro{         
+        width: 0;
+
+    }
+}
+
+@media screen and (max-width:800px) {
+    .description_content{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .description_content_wrapper{
+        margin: 10px 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* description block end */
