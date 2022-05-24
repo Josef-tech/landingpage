@@ -35,10 +35,12 @@ html, body {
     width: 100%;
     height: 100%;
     background-size: 100% 100%;
+    max-height: 800px;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    max-height: 800px;
+  
     
 }
 
@@ -79,6 +81,7 @@ html, body {
     max-width: 100px;
     width: 100%;
     max-height: 20px;
+
     background-color: rgb(255, 109, 109);
     text-transform: uppercase;
     color: aliceblue;
@@ -126,10 +129,12 @@ html, body {
 .description {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+
     max-width: 1440px;
     width: 100%;
     max-height: 800px;
-    justify-content: space-between;
+    
 }
 
 
@@ -149,6 +154,7 @@ html, body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
     max-width: 450px;
     margin: 0 15px;
 }
@@ -299,3 +305,387 @@ html, body {
 
 
 /* features block end */
+
+
+
+
+/* responsive design block start */
+
+.responsive {
+    display: flex;
+    flex-direction: row;
+    max-width: 1440px;
+    width: 100%;
+    height: 569px;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+.responsive_content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    max-height: 569px;
+
+}
+
+
+
+.responsive_content_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 450px;
+    margin: 0 15px;
+    margin-top:178px;
+}
+
+
+.responsive_subtitle {
+
+    margin-bottom:5px;
+    font-family: Exo2;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: rgb(255, 109, 109);
+    font-weight: 200;
+
+
+
+}
+
+
+.responsive_title {
+
+    margin-bottom: 30px;
+    font-family: Exo2;
+    font-size: 35px;
+    font-weight: 300;
+
+
+}
+
+.responsive_title span {
+    color:rgb(255, 109, 109);
+}
+
+
+
+
+
+.responsive_text {
+    font-family: Exo2;
+    font-size: 13px;
+    font-weight: 100;
+    color:rgb(120, 120, 120);
+    letter-spacing: 1px;
+}
+
+
+
+
+
+.responsive_macbookimage {
+    position: relative;
+    width: 40%;
+    
+
+}
+
+.responsive_laptop {
+    position:absolute;
+    top:50%;
+    left:65%;
+    width: 90%;
+    transform:translate(-50%,-50%);
+    
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:800px) {
+    .responsive_backgroundintro{         
+        width: 0;
+
+    }
+}
+
+@media screen and (max-width:800px) {
+    .responsive_content{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .responsive_content_wrapper{
+        margin: 10px 15px;
+    }
+}
+
+
+
+
+
+
+/*responsive design block end */
+
+
+
+
+/* founders block start */
+
+.founders {
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    width: 100%;
+    height: 525px;
+    background-image: url(./img/bg/bgclients.jpg);
+    font-family: Exo2;
+    color:aliceblue;
+    align-items: center;
+}
+
+.founders_description {
+
+        display: flex;
+        margin:90px;
+        margin-top: 35px;
+        
+}
+
+
+.founders_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width:400px;
+    margin:25px;
+}
+
+
+.founders_founders_photo {
+    width: 67px;
+    height: 67px;
+    margin-bottom: 8px;
+    background-color: rgba(120, 120, 120, 0.414);
+
+}
+
+
+.founders_description .founders_title {
+    font-size:14px;
+    font-weight: 200;
+    text-transform:uppercase;
+    
+}
+
+
+.founders_description .founders_subtitle {
+    font-size: 12px;
+    color: rgb(255, 109, 109);
+}
+
+
+
+.founders_description .founders_text {
+    margin-top:27px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: 100;
+    font-style: italic;
+    color: grey;
+}
+
+.founders_partners {
+    display: flex;
+    justify-content: space-around;
+    width: 976px;
+
+
+   
+}
+
+
+.founders_partners img {
+    width:113px;
+    height:69px ;
+}
+
+
+
+
+
+@media screen and (max-width:800px) {
+    .founders {
+        background-image: none;
+        background-color: azure;
+    }
+
+    .founders_description {
+        margin-bottom: 0;
+        flex-direction: column;
+    }
+  
+}
+
+
+/*founders block end */
+
+
+
+
+.newfeatures {
+    display: flex;
+    flex-direction:;
+    max-width: 1440px;
+    width: 100%;
+    max-height: 800px;
+    justify-content: center;
+}
+
+
+.newfeatures_wrapper {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 600px;
+    margin-top:80px;
+}
+
+
+.newfeatures_text {
+
+    font-family: Exo2;
+    font-size: 13px;
+    font-weight: 100;
+    color:rgb(120, 120, 120);
+    letter-spacing: 1px;
+    margin-top:20px;
+}
+
+
+.newfeatures_wrapper h3 {
+    font-family: Exo2;
+    font-size: 14px;
+    font-weight: 250;
+    text-transform:uppercase;
+    color:rgb(255, 109, 109);
+}
+
+.newfeatures_wrapper h2{
+    font-family: ;
+    font-size: 35px;
+    font-weight: 300;
+
+}
+
+
+
+.newfeatures_browserimage {
+    margin-top:111px;
+}
+
+
+
+
+
+
+@media screen and (max-width:800px) {
+    .newfeatures_wrapper{
+        width: 100%;
+        margin: 10px 15px;
+    }
+}
+
+
+/*form block start */
+
+
+.form {
+    max-width: 1440px;
+    width: 100%;
+    height: 500px;
+    background-color:blueviolet;
+}
+
+
+.form_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    margin-top:30px
+
+}
+
+
+
+.form_userdata{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top:50px;
+    
+}
+
+
+
+
+
+/* .form_trynowbutton {
+    max-width: 100px;
+    margin-left:1000px;
+    max-height: 20px;
+    background-color: rgb(255, 109, 109);
+    text-transform: uppercase;
+    color: aliceblue;
+    padding: 14px 40px;
+    border-radius: 4px;
+    text-align: center;
+    font-family: Exo2thin;
+    font-weight: 100;
+    margin-bottom:100px;
+}
+
+*/
+
+
+
+.form_username {
+
+    width: 100px;
+    height: 100px;
+
+}
+
+.form_email {
+    width: 100px;
+    height: 100px;
+
+}
+
+.form_password{
+    width: 100px;
+    height: 100px;
+
+}
+
+/*form block end */
