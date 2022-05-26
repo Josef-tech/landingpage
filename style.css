@@ -2,14 +2,6 @@
 
 
 
-
-
-
-
-
-
-
-
 * {
     margin:0;
     padding: 0;
@@ -105,13 +97,6 @@ html, body {
 
 
 
-
-
-    
-
-
-
-
 /* description block start */
 
 .description {
@@ -131,8 +116,6 @@ html, body {
     display: flex;
     justify-content: center;
     width: 55%;
-    
-    
     
 }
 
@@ -194,9 +177,6 @@ html, body {
 
 
 
-
-
-
 /* description block end */
 
 
@@ -249,10 +229,33 @@ html, body {
 
 
 
+.features_feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width:400px;
+}
 
 
+.feature_image {
+    width: 67px;
+    height: 67px;
+    margin-bottom: 20px;
 
+}
 
+.feature_title {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.feature_text {
+    text-align: center;
+    font-weight: 100;
+    color: rgb(120, 120, 120);
+    letter-spacing: 1px;
+}
 
 
 /* features block end */
@@ -270,10 +273,6 @@ html, body {
     height: 569px;
     justify-content: space-between;
 }
-
-
-
-
 
 
 .responsive_content {
@@ -359,17 +358,6 @@ html, body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 /*responsive design block end */
 
 
@@ -382,7 +370,8 @@ html, body {
     flex-direction: column;
     max-width: 1440px;
     width: 100%;
-    height: 525px;
+    max-height: 647px;
+    height: 100%;
     background-image: url(./img/bg/bgclients.jpg);
     font-family: Exo2;
     color:aliceblue;
@@ -391,10 +380,16 @@ html, body {
 
 .founders_description {
 
-        display: flex;
-        margin:90px;
-        margin-top: 35px;
-        
+    display: flex;
+    margin:90px;
+    margin-top: 35px;
+    max-height: 500px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;       
+    margin-bottom: 0;
+    flex-direction: row;
+    height: 100%; 
 }
 
 
@@ -445,16 +440,17 @@ html, body {
 .founders_partners {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
     width: 976px;
-
-
-   
+    
 }
 
 
 .founders_partners_converse {
     width:113px;
     height:69px ;
+    
 }
 
 .ounders_partners_levis {
@@ -480,46 +476,16 @@ html, body {
 
 
 
-
-
-
-    .founders_description {
-        margin-bottom: 0;
-        flex-direction: row;
-        height: 100%;
-    }
-
-    .founders_partners {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-
-    .founders_partners  {
-        display: none;
-    }
-}
-
-
-
-
-
-
-
-  
-  
-
-
 /*founders block end */
 
 
 
 
+/*newfeatures block start */
+
+
 .newfeatures {
     display: flex;
-    flex-direction:;
     max-width: 1440px;
     width: 100%;
     max-height: 800px;
@@ -533,7 +499,7 @@ html, body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    max-width: 600px;
+    width: 100%;
     margin-top:80px;
 }
 
@@ -546,6 +512,7 @@ html, body {
     color:rgb(120, 120, 120);
     letter-spacing: 1px;
     margin-top:20px;
+    text-align: center;
 }
 
 
@@ -572,7 +539,7 @@ html, body {
 
 
 
-
+/*newfeatures block end */
 
 
 
@@ -688,12 +655,6 @@ html, body {
 }
 
 
-
-
-
-
-
-
 .form_trynow_title {
   
     width: 300px;
@@ -727,11 +688,9 @@ html, body {
 }
 
 
-
-
-
-
 /*form block end */
+
+
 
 
 /* footer block start */
@@ -746,7 +705,6 @@ html, body {
     font-family: Exo2;
 
 }
-
 
 
 .footer_starex {
@@ -823,9 +781,9 @@ html, body {
 
 .footer_email::placeholder {
 
-            color:rgb(120, 120, 120);
-            text-transform:uppercase;
-            padding: 15px;
+    color:rgb(120, 120, 120);
+    text-transform:uppercase;
+    padding: 15px;
             
 
 }

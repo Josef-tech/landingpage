@@ -1,3 +1,6 @@
+
+/* header queries start */
+
 @media screen and (max-width:800px) {
     .header{ 
         background-image: url(./img/bg/bgindexmd.jpg);
@@ -13,15 +16,11 @@
 }
 
 
+/* header queries end */
 
 
 
-
-
-
-
-
-
+/* description queries start */
 
 
 @media screen and (max-width:800px) {
@@ -44,17 +43,12 @@
 }
 
 
+/* description queries end */
 
 
 
 
-
-
-
-
-
-
-
+/* features queries start */
 
 
 @media screen and (max-width:800px) {
@@ -77,14 +71,11 @@
     }
 }
 
+/* features queries end */
 
 
 
-
-
-
-
-
+/*responsive queries start */
 
 
 @media screen and (max-width:800px) {
@@ -106,101 +97,126 @@
     }
 }
 
+/* responsive queries end */
 
 
 
 
 
 
-
-
-
-
-
-
-
-
+/* founders queries start */
 
 @media screen and (max-width:800px) {
-    .founders {
-        background-image: none;
-        background-color: black;
-        color:aliceblue;
+        .founders {
+            height: auto;
+            max-height: none;
+        }
+
+
+
+    .founders_description{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        max-height: none;
+        margin-top: 10px;
+        
     }
 
-    .founders_description {
-        margin-bottom: 0;
-        flex-direction: row;
-        height: 100%;
-    }
 
     .founders_partners {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+    }
+
+    .founders_partners_converse {
+        margin-bottom: 10px;
+    }
+    .founders_partners_levis {
+        margin-bottom: 10px;
+    }
+    .founders_partners_nike {
+        margin-bottom: 10px;
+    }
+    .founders_partners_mango {
+        margin-bottom: 10px;
+    }
+    .founders_partners_puma {
+        margin-bottom: 10px;
+    }
+}
+
+
+ 
+/* founders queries end */
+
+
+
+
+/* newfeatures queries start */
+
+
+
+@media screen and (max-width:800px) {
+    .newfeatures{
+        display: flex;
+        flex-direction: column;
+      
+    }
+
+    .newfeatures_wrapper {
+        display: flex;
+        flex-direction: column;
         align-items: center;
+    }
+
+
+    .newfeatures_browserimage {
+        display: none;
+    }
+
+
+    .newfeatures_text {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}
+
+
+
+/* features queries end*/
+
+
+
+
+
+
+/*form queries start */
+
+@media screen and (max-width:800px) {
+    .form_userdata {
+        display: flex;
+        flex-direction: column;
+    }
+    .form_description {
+        display: flex;
         flex-direction: column;
     }
 
 
-    .founders_partners  {
-        display: none;
-    }
 }
 
 
+/* form queries end */
 
 
 
 
-
-
-
-
-
-
-@media screen and (max-width:800px) {
-    .newfeatures_wrapper{
-        width: 100%;
-        margin: 10px 15px;
-      
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:800px) {
-    .form_description .form_userdata {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-      
-    }
-}
-
-
-
-
-
-
-
-
-
-
+/* footer queries start */
 
 
 @media screen and (max-width:800px) {
     .footer_description{
-        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -208,40 +224,24 @@
         text-align: center;
 
     }
-}
 
+    .footer_email {
+        text-align: center;
+    }
 
-
-
-
-@media screen and (max-width:800px) {
-    .footer_bg{
+    .footer_bg {
         display: none;
     }
-}
 
-
-
-
-
-@media screen and (max-width:800px) {
-    .support_title .aboutus_title .newletter_title{
-        text-align: center;
-
-
-    }
-
-    .footer_aboutus .footer_email .footer_support .footer_letter{
-
-        margin-top:20px;
-    }
-}
-
-
-@media screen and (max-width:800px) {
-    .footer_description{
+    .footer_letter {
         display: flex;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 30px;
+        margin-bottom:15px;
     }
 }
+
+/* footer queries end */
+
