@@ -293,7 +293,7 @@ html, body {
     justify-content: center;
     max-width: 450px;
     margin: 0 15px;
-    margin-top:178px;
+   
 }
 
 
@@ -411,6 +411,13 @@ html, body {
 
 }
 
+
+.founders_co-photo {
+
+    width: 70px;
+    height: 70px;
+    margin-bottom: 8px;
+}
 
 .founders_description .founders_title {
     font-size:14px;
